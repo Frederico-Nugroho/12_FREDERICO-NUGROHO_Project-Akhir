@@ -1,0 +1,105 @@
+
+:root{
+  --bg:#0f0f0f;
+  --card:#121212;
+  --muted:#b3b3b3;
+  --accent:#ffa0b0;
+}
+
+body.koleksi-page{
+  background: linear-gradient(180deg,#0b0b0b 0%, #111 100%);
+  color: #fff;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+.koleksi-container{
+  max-width:1200px;
+  margin: 24px auto;
+  padding: 0 20px 60px;
+}
+
+.koleksi-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:18px;
+}
+
+.koleksi-title{
+  font-size:20px;
+  font-weight:700;
+}
+
+.koleksi-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap:22px;
+}
+
+.koleksi-card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius:10px;
+  padding:12px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  align-items:flex-start;
+  transition: transform .18s ease, box-shadow .18s ease;
+  cursor:pointer;
+  min-height:260px;
+}
+
+.koleksi-card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+.koleksi-art{
+  width:100%;
+  border-radius:6px;
+  overflow:hidden;
+  background:#222;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:220px;
+}
+
+.koleksi-art img{ width:100%; height:100%; object-fit:cover; display:block; }
+
+.koleksi-meta{
+  width:100%;
+}
+
+.koleksi-meta h4{
+  margin:0;
+  font-size:14px;
+  font-weight:700;
+}
+
+.koleksi-meta p{
+  margin:4px 0 0 0;
+  font-size:12px;
+  color:var(--muted);
+}
+
+.koleksi-footer{
+  margin-top:24px;
+  text-align:center;
+  color:var(--muted);
+  font-size:13px;
+}
+
+.create-btn{
+  display:inline-block;
+  background:var(--accent);
+  color:#000;
+  padding:10px 16px;
+  border-radius:24px;
+  font-weight:700;
+  text-decoration:none;
+  text-align:center;
+}
+.create-btn:hover{ background:#585958; color:#000; }
+

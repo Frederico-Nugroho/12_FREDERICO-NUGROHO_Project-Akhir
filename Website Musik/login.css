@@ -1,0 +1,70 @@
+h1 { 
+    color : white;
+    text-align: center;
+}
+
+.loginbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.loginbox table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.loginbox table td {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.loginbox input[type="text"],
+.loginbox input[type="password"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.loginbox input[type="submit"] {
+    padding: 10px 30px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.loginbox input[type="submit"]:hover {
+    background-color: #ff8a97;
+}
+
+.loginbox p {
+    margin-top: 20px;
+    color: white;
+}
+
+.loginbox a {
+    color: #ff8a97;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.loginbox a:hover {
+    text-decoration: underline;
+}
+
+
+.logo-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

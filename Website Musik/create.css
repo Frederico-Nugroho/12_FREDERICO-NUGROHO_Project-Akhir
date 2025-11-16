@@ -1,0 +1,10 @@
+
+    .create-form{ max-width:520px; margin:40px auto; padding:20px; background:rgba(255,255,255,0.02); border-radius:10px; }
+    .create-form h2{ margin:0 0 12px; color:#fff }
+    .create-form label{ display:block; color:#b3b3b3; margin:10px 0 6px }
+    .create-form input[type=text], .create-form textarea{ width:100%; padding:10px; border-radius:8px; border:1px solid rgba(255,255,255,0.04); background:#111; color:#fff }
+    .create-form textarea{ min-height:120px }
+    .create-actions{ text-align:right; margin-top:12px }
+    .btn-cancel{ margin-right:8px; color:#fff; background:transparent; border:1px solid rgba(255,255,255,0.08); padding:8px 14px; border-radius:20px; text-decoration:none }
+    .btn-create{ background:#ffa7a7; color:#000; padding:8px 16px; border-radius:20px; font-weight:700; text-decoration:none; border:none }
+    .msg{ color:#ff8a97; margin-bottom:8px }

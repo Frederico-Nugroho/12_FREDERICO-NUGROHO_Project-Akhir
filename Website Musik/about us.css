@@ -1,0 +1,27 @@
+body { background: #181818; color: #fff; font-family: 'Segoe UI', Arial, sans-serif; }
+	
+.about-title { font-size: 2rem; font-weight: 700; margin-bottom: 18px; color: #fcaaaa; }
+	
+.about-desc { font-size: 1.1rem; margin-bottom: 24px; color: #b3b3b3; }
+	
+.about-team { margin-bottom: 24px; }
+	
+.about-team h3 { color: #fff; font-size: 1.2rem; margin-bottom: 10px; }
+
+.team-list { display: flex; gap: 24px; flex-wrap: wrap; }
+	
+.team-member { background: #181818; border-radius: 10px; padding: 18px 16px; text-align: center; flex: 1 1 180px; }
+	
+.team-member img { width: 64px; height: 64px; border-radius: 50%; margin-bottom: 10px; object-fit: cover; background: #333; }
+	
+.team-member .name { font-weight: 600; color: #fcaaaa; }
+	
+.team-member .role { font-size: 0.95rem; color: #b3b3b3; }
+	
+.about-contact { margin-top: 24px; }
+	
+.about-contact h3 { color: #fff; font-size: 1.1rem; margin-bottom: 8px; }
+	
+.about-contact p, .about-contact a { color: #b3b3b3; font-size: 1rem; }
+	
+.about-contact a { text-decoration: underline; }
